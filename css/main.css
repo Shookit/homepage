@@ -1,0 +1,247 @@
+/*
+ * Elements
+*/
+html {
+  overflow-y: scroll;
+}
+
+body {
+    background-color: #222222;
+    color: white;
+	font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, .parastart{
+    margin:0;
+    font-family: 'Oswald', sans-serif;
+    font-weight:100;
+}
+
+h1{
+    font-size: 36px;
+    font-weight:900;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+h3{
+    font-size:24px;
+    text-transform: uppercase;
+}
+
+h4{
+    font-size:20px;
+}
+
+h5{
+    font-size:14px;
+    text-transform: lowercase;
+}
+
+p{
+    font-size:18px;
+    font-weight:300;
+    line-height:1.5em;
+    text-align:justify;
+}
+
+li{
+    font-size:14px;
+    font-weight:300;
+    line-height:1.5em;
+}
+
+.whitelink, .whitelink:link, .whitelink:visited, .whitelink:hover, .whitelink:active{
+    color: white !important;
+    text-decoration: none;
+}
+
+.colorlink{
+    color: #7DCAFF !important;
+}
+
+.colorlink:hover{
+    text-decoration: underline;
+}
+
+.parastart{
+    font-size:28px;
+}
+
+p a{
+    text-decoration: underline;
+}
+
+/*
+ * Generics
+ */
+
+.hidden{
+    display: none;
+}
+
+.thinleftborder{
+    border-left: 1px solid #666666;
+}
+
+.headermargins{
+    margin:15px;
+}
+
+.headermarginbottom{
+    margin-bottom:15px;
+}
+
+.medmargintop{
+    margin-top:20px;
+}
+
+.bigmargintop{
+    margin-top:50px;
+}
+
+.nomargin{
+    margin:0;
+}
+
+.nomargintop{
+    margin-top:0;
+}
+
+.nomarginbottom{
+    margin-bottom:0;
+}
+
+.nomarginleft{
+    margin-left:0;
+}
+
+.nopaddingleft{
+    padding-left:0;
+}
+
+.clear{
+    clear:both;
+}
+
+.block{
+    display:block;
+}
+
+.inline{
+    display:inline;
+}
+
+.inlineblock{
+    display:inline-block;
+}
+
+.alignright{
+    text-align:right;
+}
+
+
+/*
+ * Column height hack, padding
+ */
+html, body{
+    height:100%
+}
+
+.container{
+    min-height:100%;
+    overflow:hidden;
+}
+
+.header, .main{
+    background-color: #333333;
+    margin-bottom: -9999px;
+    padding-bottom: 9999px;
+}
+
+.header{
+    border-left: 2px solid #444444;
+    padding-top:30px;
+}
+
+.main{
+    border-right: 2px solid #444444;
+    padding-top:55px;
+}
+
+/*
+ * Header
+*/
+
+.navpage:hover h2{
+    text-decoration: underline;
+    text-decoration-color: #7DCAFF;
+}
+
+h2.active{
+    text-decoration: underline;
+    text-decoration-color: #7DCAFF;
+}
+
+/*
+ * Projects
+*/
+.project{
+    margin-bottom:70px;
+}
+
+div.title{
+    display:table;
+}
+
+div.title div{
+    display:table-cell;
+}
+
+.project .fa{
+    font-size:26px;
+    text-align: left;
+    float:left;
+    color:white;
+}
+
+.btn-dark, .btn-dark:focus, .btn-dark:visited, .btn-dark:active, .btn-dark:link{
+    color: #ffffff !important;
+    background-color: #444 !important;
+    border-color: #555 !important;
+    outline: none !important;
+}
+
+.btn-dark:hover{
+    color: #ffffff !important;
+    background-color: #888 !important;
+    border-color: #444 !important;
+    outline: none !important;
+}
+
+/*
+ * Small screen-specific
+ */
+@media (max-width: 1199px) {
+
+}
+
+@media (max-width: 991px) {
+    .header, .main, .thinleftborder{
+        border-right: 2px solid #444444;
+        border-left: 2px solid #444444;
+    }
+
+    .bigmargintop{
+    }
+
+    .col-md-9{
+        margin-top:10px;
+    }
+
+
+}

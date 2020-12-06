@@ -1,0 +1,159 @@
+<div class="col-md-12">
+
+    <!--NEW PROJECT-->
+    <div class="project">
+        <a href='https://github.com/Shookit/gitminder'>
+            <div class="title">
+                <div>
+                    <h3>
+                        <i class="fa fa-fw fa-github"></i>
+                    </h3>
+                </div>
+
+                <div>
+                    <h3 class="colorlink">
+                        Gitminder
+                    </h3>
+                </div>
+            </div>
+        </a>
+
+        <p class="first">
+            It's easy to forget to regularly commit to your git repositories.
+            Because I use my git repos as my primary method for backing up my source code, you can see the the risk in this.
+            Thus, gitminder was born.
+        </p>
+
+        <p class="hidden">
+            Gitminder monitors a list of local git repositories for you, and if it notices that any of the repos have been dirty for a long period of time, it pesters you to commit the repository.
+            I coded this in Qt (C++) for cross-compatibility's sake, and used libgit2, a C git interface library.
+            I use this program every day, and am very happy with its functionality; I'll add more functionality down the road, but it does everything that I need it to do right now.
+            I have only tested it on a very small set of systems, and make no guarantees that this will work on the first try for you, but if you want me to help you out getting it set up (or develop it further!), feel free to contact me.
+        </p>
+
+        <a class="toggler" href="javascript:;">
+            <button type="button" class="btn btn-default btn-dark btn-sm">
+              more <span class="glyphicon glyphicon-chevron-down"></span>
+            </button>
+        </a>
+    </div>
+
+    <!--NEW PROJECT-->
+    <div class="project">
+        <a href='https://play.google.com/store/apps/details?id=matt.app.stablewifi'>
+            <div class="title">
+                <div>
+                    <h3>
+                        <i class="fa fa-fw fa-android"></i>
+                    </h3>
+                </div>
+
+                <div>
+                    <h3 class="colorlink">
+                        Stable WiFi
+                    </h3>
+                </div>
+            </div>
+        </a>
+
+
+        <p class="first">
+            I've noticed when roaming around on Android, that my phone tends to connect to WiFi (and disconnect from 3G) as soon as a nearby access point is available...  even if it's too far away to actually transfer any data.
+            Conversely, it will hang onto the access point for forever, even when it's too far out of range to be reliable.
+        </p>
+        <p class="hidden">
+            This app regularly checks for changes in WiFi signal strength.
+            If signal strength is under a user-defined threshold and/or if a connectivity check fails, WiFi will be temporarily disabled (for a user-defined amount of time), which allows the system to fail over to 3G connectivity.
+            This program has a large number of favorable reviews on the Android store.
+            The source is available upon request.
+        </p>
+        <a class="toggler" href="javascript:;">
+            <button type="button" class="btn btn-default btn-dark btn-sm">
+              more <span class="glyphicon glyphicon-chevron-down"></span>
+            </button>
+        </a>
+    </div>
+
+
+    <!--NEW PROJECT-->
+    <div class="project">
+        <a href="https://github.com/Shookit/android-ml-weka">
+            <div class="title">
+                <div>
+                    <h3>
+                        <i class="fa fa-fw fa-github"></i>
+                    </h3>
+                </div>
+
+                <div>
+                    <h3 class="colorlink">
+                        Android Weka
+                    </h3>
+                </div>
+            </div>
+        </a>
+
+        <p class="first">
+            This project is a fork of the Weka data mining package.
+            The base Weka system contains a machine learning platform which supports a variety of algorithms, and is entirely written in Java.
+            Unfortunately, in Weka was written with GUI (swing) hooks, which the Android Java implementation (Dalvik) doesn't support.
+            Thus, Weka can't be used on Android as-is.
+
+        </p>
+        <p class="hidden">
+            This project strips the non-compatible elements out of the Weka code, allowing Weka to be used on Android. This isn't a completely novel project (see <a class="colorlink" href="https://github.com/rjmarsan/Weka-for-Android">here</a>), but the project hasn't been updated in a fair bit of time, and I wanted to use a newer version of Weka for my own project.
+        </p>
+        <a class="toggler" href="javascript:;">
+            <button type="button" class="btn btn-default btn-dark btn-sm">
+              more <span class="glyphicon glyphicon-chevron-down"></span>
+            </button>
+        </a>
+    </div>
+
+    <!--NEW PROJECT-->
+    <div class="project">
+        <div class="title">
+            <div>
+                <h3>
+                    <i class="fa fa-fw fa-code"></i>
+                </h3>
+            </div>
+
+            <div>
+                <h3>
+                    Desktop Computer Clapper (sidelined)
+                </h3>
+            </div>
+        </div>
+
+        <p class="first">
+            The whole purpose of this was to create a 'clapper' circuit (you know  - clap on, clap off?) to automatically turn on my desktop computer.
+            I have the circuit built and everything, but the microphone I'm using is faulty, unfortunately.
+            Following is a brief summary of how it was all put together.
+        </p>
+        <p class="hidden">
+            The circuit starts out with an electret microphone, with the accompanying circuitry (electret microphones are directional!).
+            See <a class="colorlink" href='http://en.wikipedia.org/wiki/Electret_microphone'>wikipedia's entry</a>.
+        </p>
+        <p class="hidden">
+            From there, I use a basic passive highpass filter.
+            I used a cutoff frequency of ~1Hz for this.
+            I then simply fed this filtered signal into an op amp and amplified the everliving crap out of the signal; this is only a few millivolts, and I'm using an Arduino as an ADC with relatively low resolution, so I want my range to be as big as possible.
+        </p>
+        <p class="hidden">
+            After amplifying this signal, you can optionally use an AC rectifier circuit with a simple Schottky diode, but I didn't do this (as I didn't have one), but I found that you can get a similar effect with a meaty electrolytic cap and a resistor.
+            I fed this final signal into my Arduino microcontroller, wich then used some simple microcontroller code to analyze the signal.
+            <a class="colorlink" href='files/DigitalReadSerial.ino'>Here's</a> my code, and truth be told, it's pretty ugly; it's really hard to read, and if I did it again, I'd just use a few nested loops instead of this weird if statement and true/false flag logic, but I'll only do that if I revisit this system.
+            I was able to detect claps very well, but I was also getting phantom claps every once in a while, which seem to be caused by the faulty mic.</p>
+        <p class="hidden">
+            To actually attach this system to my computer, I just fed in a 5v line to the Arduino (so you don't turn the computer off with a clap), and then tied it to my motherboard's switch pins.
+            You can also put the button in parallel with the clapper so that you can still use the button as well.
+        </p>
+        <a class="toggler" href="javascript:;">
+            <button type="button" class="btn btn-default btn-dark btn-sm">
+                more <span class="glyphicon glyphicon-chevron-down"></span>
+            </button>
+        </a>
+    </div>
+
+</div>
