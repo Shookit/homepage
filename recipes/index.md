@@ -178,6 +178,7 @@ Soups/stews
 - [Lentil soup](Lentil_soup.md)
 - [Minestrone](Minestrone.md)
 - [Olive garden zuppa toscana](Olive_garden_zuppa_toscana.md)
+- [Ramen stock](Ramen_stock.md)
 - [Roasted tomato basil soup](Roasted_tomato_basil_soup.md)
 - [Tikka masala](Tikka_masala.md)
 - [Tortellini soup](tortellini_soup.md)
