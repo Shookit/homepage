@@ -5,7 +5,7 @@ Ingredients
 -----------
 
 - 6 medium potatoes, scrubbed
-- 1 medium onion
+- 1 large onion
 - 2 eggs, lightly beaten
 - 1/4 cup flour
 - 1/2 teaspoon salt
