@@ -34,7 +34,7 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/in
 choco feature enable -n allowGlobalConfirmation
 
 # base:
-cinst dropbox todoist veracrypt
+cinst todoist veracrypt
 
 # optional:
 cinst calibre
@@ -42,8 +42,6 @@ cinst calibre
 
 
 ### Windows OS tweaks
-
-NOTE: some of the following Windows OS tweaks may no longer be necessary w/ Debloat scripts; remove as necessary after a fresh install. Should also move all scriptable/regexable tweaks to that repo.
 
 - Drivers
     - Install all drivers in `Z:\Drivers`
@@ -106,11 +104,12 @@ NOTE: some of the following Windows OS tweaks may no longer be necessary w/ Debl
 - Firefox
     - Install bitwarden
     - Log into bitwarden
+        - Set timeout to "4 hours" or "never"
+        - Allow autofill
     - Log into firefox sync
     - Wait for extensions to install
     - Remove unnecessary whitespace and buttons, add toolbar
 - Just log in
-    - Dropbox
     - Todoist (via google)
     - Slack (4cinsights.slack.com, matthannah.slack.com)
 - Setpoint (on desktop)
