@@ -57,6 +57,11 @@ Systemd
 
 `journalctl -u <unit>` to see logs for a particular unit
 
+### See unit boot times from boot
+
+```
+sudo systemd-analyze blame
+```
 
 ### Unit manipulation
 
