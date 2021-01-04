@@ -3,6 +3,7 @@
 ## Tabs
 
 - [Barenaked Ladies - Brian Wilson](Barenaked_ladies-brian_wilson.md)
+- [Blessid Union of Souls - Light In Your Eyes.md](Blessid_Union_of_Souls-Light_In_Your_Eyes.md)
 - [Bryan Adams - Summer of 69](Bryan_adams_summer_of_69.md)
 - [Creedence Clearwater Revival - Bad Moon Rising](Creedence_clearwater_revival-bad_moon_rising.md)
 - [Dolly Parton - Jolene](Dolly_parton-jolene.md)
@@ -21,6 +22,8 @@
 - [Nirvana - Smells Like Teen Spirit](Nirvana-smells_like_teen_spirit.md)
 - [Oasis - Don't Look Back in Anger](Oasis_dont_look_back_in_anger.md)
 - [Oasis - Wonderwall](Oasis-wonderwall.md)
+- [Pokemon Theme Song](Pokemon_Theme_Song.md)
 - [Semisonic - Closing Time](Semisonic-closing_time.md)
+- [The Verve Pipe - The Freshmen](The_Verve_Pipe-The_Freshmen.md)
 - [Tracy Chapman - Fast Car](Tracy_chapman_fast_car.md)
 - [Weezer - Say It Ain't So](Weezer-say_it_aint_so.md)
