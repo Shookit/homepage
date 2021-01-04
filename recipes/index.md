@@ -104,6 +104,7 @@ Veggies
 - [Green bean casserole](Green_bean_casserole.md)
 - [Kimchi](Kimchi.md)
 - [Mushroom risotto](Mushroom_risotto.md)
+- [Pickled beets](Pickled_beets.md)
 - [Pizza beans](Pizza_beans.md)
 - [Sauerkraut](Sauerkraut.md)
 - [Sambar](Sambar.md)
