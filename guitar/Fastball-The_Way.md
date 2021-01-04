@@ -1,4 +1,4 @@
-## Fastball - The Way
+# Fastball - The Way
 
 Capo on 2nd
 
