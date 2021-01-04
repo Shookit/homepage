@@ -1,3 +1,5 @@
+# The Verve Pipe - The Freshmen
+```
 [Intro] 
 
 | D       | G       | Bm    A | G       | x2
@@ -188,3 +190,4 @@ Bm    A G
 [Outro]
 
 | D       | G       | Bm    A | G
+```
