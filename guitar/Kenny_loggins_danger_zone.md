@@ -1,4 +1,4 @@
-Kenny Loggins - Danny's Song
+Kenny Loggins - Danger Zone
 ===========================
 
 Capo on 6
