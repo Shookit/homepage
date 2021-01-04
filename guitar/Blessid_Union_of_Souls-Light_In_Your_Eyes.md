@@ -1,4 +1,4 @@
-## Blessid Union of Souls - Light in Your Eyes
+# Blessid Union of Souls - Light in Your Eyes
 
 Capo 4th Fret
 
