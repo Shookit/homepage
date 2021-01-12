@@ -10,6 +10,7 @@
 - [Git](Git.md)
 - [IntellJ](IntelliJ.md)
 - [IRC](IRC.md)
+- [Kubernetes](Kubernetes.md)
 - [Latex](Latex.md)
 - [Linux generic](Linux_generic.md)
 - [Mongo](Mongo.md)
