@@ -1,3 +1,4 @@
 - [Arch](Arch.md)
+- [Manjaro](Manjaro.md)
 - [Retropie](Retropie.md)
 - [Windows](Windows.md)
