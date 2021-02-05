@@ -22,6 +22,6 @@ Directions
 2. Put the flour in a shallow dish and season with salt and pepper.
 3. Whisk the eggs and milk in another shallow dish and season with salt and pepper.
 4. Put the bread crumbs in a third dish and again season with salt and pepper.
-5. Egg/milk -> flour -> breadcrumbs
+5. Flour -> egg/milk -> breadcrumbs
 6. Lay the breaded pork cutlets in a single layer on a plate lined with parchment and refrigerate, uncovered, for 10 to 12 minutes to allow the coating to dry out a little and adhere to the pork.
 7. Heat oil and butter in large nonstick skillet over medium-high heat. Add the thyme sprig and let it fry for about 1 minute to infuse the oil. Remove the thyme sprig and reserve. Gently lay the cutlets into the pan and cook until golden brown and crispy, about 3 minutes per side. Remove to paper towels to drain. Season with salt and transfer to a serving platter while still hot. Garnish with lemon wedges and the fried thyme sprig before serving.
