@@ -1,4 +1,6 @@
-##Install
+## Install
+
+Complete CD's GUI installer (user=shook, hostname=shook-vm)
 
 ```bash
 sudo pacman -Syu
