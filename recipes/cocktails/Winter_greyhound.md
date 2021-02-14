@@ -1,7 +1,7 @@
 
 ## Ingredients
 
-###Rosemary Simple Syrup:
+### Rosemary Simple Syrup:
 - 2 cups of water
 - 2 cups of sugar
 - 6 sprigs of rosemary
