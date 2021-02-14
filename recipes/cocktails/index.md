@@ -43,6 +43,7 @@ Gin
 - Negroni
 - [Southside](Southside.md)
 - Tom collins
+- [Winter greyhound](Winter_greyhound.md)
 
 
 Tequila
@@ -60,6 +61,7 @@ Brandy
 Other
 -----
 
+- [Americano](Americano.md)
 - [Brandy slush](Brandy_slush.md)
 - [Chilcano](Chilcano.md)
 - [German chocolate cake](German_chocolate_cake.md)
