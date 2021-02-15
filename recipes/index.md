@@ -1,6 +1,7 @@
 Recipes
 =======
 
+
 Breakfast
 ---------
 
@@ -84,6 +85,7 @@ Seafood
 - [Garlic fiesta shrimp](Garlic_fiesta_shrimp.md)
 - [Garlic shrimp in coconut milk](Garlic_shrimp_in_coconut_milk.md)
 - [Roasted shrimp and orzo](Roasted_Shrimp_and_Orzo.md)
+- [Scallops and butter](Scallops_and_butter.md)
 - [Zesty lime shrimp and avocado salad](Zesty_lime_shrimp.md)
 
 
@@ -177,6 +179,8 @@ Soups/stews
 - [Enchilada soup](Enchilada_soup.md)
 - [Gumbo](Gumbo.md)
 - [Lentil soup](Lentil_soup.md)
+- [Lentil tomato soup](Lentil_tomato_soup.md)
+- [Lobster bisque](Lobster_bisque.md)
 - [Minestrone](Minestrone.md)
 - [Olive garden zuppa toscana](Olive_garden_zuppa_toscana.md)
 - [Ramen stock](Ramen_stock.md)
@@ -230,7 +234,9 @@ Desserts
 - [7-layer bars](7-layer_bars.md)
 - [Apple crisp](Apple_crisp.md)
 - [Belgian waffles](Belgian_waffles.md)
+- [Caramel sauce](Caramel_sauce.md)
 - [Carrot cake](Carrot_cake.md)
+- [Cheesecake](Cheesecake.md)
 - [Chocolate mousse](Chocolate_mousse.md)
 - [Coconut macaroons](Coconut_macaroons.md)
 - [Drop berry shortcakes](Drop_berry_shortcakes.md)
