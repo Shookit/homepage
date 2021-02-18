@@ -74,6 +74,7 @@ cinst calibre
         - Never sleep
     - "touchpad"
         - Increase touchpad sensitivity to '8'
+        - Three-finger tap = middle mouse click
     - "pc name"
         - Rename this PC
     - "arrange windows"
