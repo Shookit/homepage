@@ -8,15 +8,12 @@ Beans:
 
 - 1 lb. (2 cups) dry black beans, picked over to remove broken or wrinkled beans or small stones
 - 6 cups water
-- 1 small onion, halved (not diced)
-- 2-3 whole garlic cloves
-- 1 tsp dry oregano
-- 1 bay leaf
 
 Add last:
 
 - Cumin and chili powder to taste
 - Small bit of acid (vinegar or ~1 lime)
+- Chopped onion
 - 2tsp salt
 
 Rice:
