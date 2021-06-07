@@ -62,7 +62,7 @@ Other
 -----
 
 - [Americano](Americano.md)
-- [Brandy slush](Brandy_slush.md)
+- [Slush](Slush.md)
 - [Chilcano](Chilcano.md)
 - [German chocolate cake](German_chocolate_cake.md)
 - Grasshopper
