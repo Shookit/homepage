@@ -4,10 +4,11 @@ Margarita cocktail
 Ingredients
 -----------
 
-- 2 Parts 100% agave tequila
-- 1.15 Part triple sec/cointreau
-- 0.85 Part lime juice
-- (Also can try 50% Tequila, 21% lime, 29% triple sec/cointreau)
+- 2 parts 100% agave tequila
+- 1.1 part triple sec/cointreau
+- 1 part lime juice
+- Agave syrup or simple syrup (or squirt even, why not) to taste
+
 
 Directions
 ----------
