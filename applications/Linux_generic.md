@@ -205,6 +205,14 @@ sudo iptables -nL
 sudo iptables -nL -t nat
 ```
 
+fail2ban
+--------
+
+```bash
+sudo fail2ban-client status sshd
+sudo fail2ban-client set sshd unbanip 75.15.249.246
+```
+
 
 firewalld (an iptables successor)
 ---------------------------------
