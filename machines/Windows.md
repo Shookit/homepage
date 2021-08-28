@@ -34,12 +34,15 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/in
 choco feature enable -n allowGlobalConfirmation
 
 # base:
-cinst todoist veracrypt
+cinst veracrypt
 
 # optional:
 cinst calibre
 ```
 
+### Manual
+
+- Install todoist from website (doesn't have a modern chocolatey)
 
 ### Windows OS tweaks
 
