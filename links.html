@@ -1,0 +1,248 @@
+<div class="col-md-12">
+
+    <!--NEW PROJECT-->
+    <div class="project">
+        <a href="files/thesis.pdf">
+            <div class="title">
+                <div>
+                    <h3>
+                        <i class="fa fa-fw fa-file-text"></i>
+                    </h3>
+                </div>
+
+                <div>
+                    <h3 class="colorlink">
+                        User-aware System Design and Optimization (2015)
+                    </h3>
+                </div>
+            </div>
+        </a>
+
+        <p class="first">
+            The Big Kahuna.
+            This is my PhD dissertation, which summarizes the user-aware computing paradigms that I researched over the course of my program.
+        </p>
+        <p class="hidden">
+            Humans are incredibly diverse and complex.
+            Unfortunately, personal computing devices are designed and optimized to best suit the average user, rather than considering the individual.
+            Over-designing a computer system is wasteful from a power and expense standpoint.
+            On the other hand, under-designed systems use less power and hardware, but can harm the overall user experience by not successfully meeting the user’s performance needs.
+            This leaves a significant amount of room for optimization and improvement in the design of these systems; without a full understanding of the user impact of a design decision, any solution is likely to be suboptimal.
+        </p>
+        <p class="hidden">
+            To address this, this work proposes the use of systems which have an improved contextual understanding of the individual user.
+            This not only enables the creation of a more personalized system, but also allows the system to react to fluctuations in individual's requirements of the system over time.
+            Additionally, this work explores the benefits to be gained by targeting performance metrics which are known to closely reflect actual user sentiment when designing and optimizing hardware and systems.
+        </p>
+        <a class="toggler" href="javascript:;">
+            <button type="button" class="btn btn-default btn-dark btn-sm">
+                more <span class="glyphicon glyphicon-chevron-down"></span>
+            </button>
+        </a>
+    </div>
+
+    <!--NEW PROJECT-->
+    <div class="project">
+        <a href="files/cases2015.pdf">
+            <div class="title">
+                <div>
+                    <h3>
+                        <i class="fa fa-fw fa-file-text"></i>
+                    </h3>
+                </div>
+
+                <div>
+                    <h3 class="colorlink">
+                        Optimizing Mobile Display Brightness by Leveraging Human Visual Perception (2015)
+                    </h3>
+                </div>
+            </div>
+        </a>
+
+        <p class="first">
+            Modern smartphones and tablets are battery-constrained by their mobility; this constraint is heavily factored into any design decision made on the device.
+            Furthermore, the display is one of the most power-consuming subsystems.
+            Adaptive display brightness systems attempt to address this high display power consumption by setting the brightness depending on the surrounding ambient light levels.
+        </p>
+
+        <p class="hidden">
+            In this work, we run a series of user studies aimed at gauging the accuracy of these adaptive brightness models.
+            These studies compare subjective satisfaction and readability metrics on a common smartphone display and find that the adaptive brightness system isn’t well-tuned to user prefer- ences.
+            We also find that subjective ratings and readability are closely correlated with one another across different dis- play brightness levels, which can be used to give a better understanding of how screen brightness levels impact users.
+        </p>
+
+        <p class="hidden">
+            Additionally, we note that operating systems need to reduce the power envelope of the device for a variety of reasons.
+            This is done without understanding the impact of these decisions on user satisfaction, and can significantly degrade user experience.
+            In this work, we propose a user-aware method of reducing display power consumption, which allows display power to be throttled while understanding the resulting im- pact on the user.
+            By considering this impact on the user, we devise an optimal dimming scheme which can reduce the time-weighted readability degradation by upwards of 21.5%.
+        </p>
+        <a class="toggler" href="javascript:;">
+            <button type="button" class="btn btn-default btn-dark btn-sm">
+                more <span class="glyphicon glyphicon-chevron-down"></span>
+            </button>
+        </a>
+    </div>
+
+    <!--NEW PROJECT-->
+    <div class="project">
+        <a href="https://github.com/Shookit/android-ml-weka">
+            <div class="title">
+                <div>
+                    <h3>
+                        <i class="fa fa-fw fa-github"></i>
+                    </h3>
+                </div>
+
+                <div>
+                    <h3 class="colorlink">
+                        Android Weka (2014)
+                    </h3>
+                </div>
+            </div>
+        </a>
+
+        <p class="first">
+            This project is a fork of the Weka data mining package.
+            The base Weka system contains a machine learning platform which supports a variety of algorithms, and is entirely written in Java.
+            Unfortunately, in Weka was written with GUI (swing) hooks, which the Android Java implementation (Dalvik) doesn't support.
+            Thus, Weka can't be used on Android as-is.
+            This project isn't up to date, and I don't play much in the Android space at the moment, so I'd be happy to hand it over if a more motivated maintainer is out there!
+        </p>
+        <p class="hidden">
+            This project strips the non-compatible elements out of the Weka code, allowing Weka to be used on Android. This isn't a completely novel project (see <a class="colorlink" href="https://github.com/rjmarsan/Weka-for-Android">here</a>), but the project hasn't been updated in a fair bit of time, and I wanted to use a newer version of Weka for my own project.
+        </p>
+        <a class="toggler" href="javascript:;">
+            <button type="button" class="btn btn-default btn-dark btn-sm">
+              more <span class="glyphicon glyphicon-chevron-down"></span>
+            </button>
+        </a>
+    </div>
+
+
+    <!--NEW PROJECT-->
+    <div class="project">
+        <a href='https://github.com/Shookit/gitminder'>
+            <div class="title">
+                <div>
+                    <h3>
+                        <i class="fa fa-fw fa-github"></i>
+                    </h3>
+                </div>
+
+                <div>
+                    <h3 class="colorlink">
+                        Gitminder (2013)
+                    </h3>
+                </div>
+            </div>
+        </a>
+
+        <p class="first">
+            The original goal of Gitminder was to remind you to commit your git repositories regularly, since you can lose a lot of time if you neglect to do so.
+            I've honestly changed my opinions about some git best practices (I prefer smaller commits over big monolithic ones) since I created this project, but the impetus for this project was practicing modern C++ and UI development, so no harm, no foul.
+        </p>
+
+        <p class="hidden">
+            Gitminder monitors a list of local git repositories for you, and if it notices that any of the repos have been dirty for a long period of time, it pesters you to commit the repository.
+            I coded this in Qt (C++) for cross-compatibility's sake, and used libgit2, a C git interface library.
+            I use this program every day, and am very happy with its functionality; I'll add more functionality down the road, but it does everything that I need it to do right now.
+            I have only tested it on a very small set of systems, and make no guarantees that this will work on the first try for you, but if you want me to help you out getting it set up (or develop it further!), feel free to contact me.
+        </p>
+
+        <a class="toggler" href="javascript:;">
+            <button type="button" class="btn btn-default btn-dark btn-sm">
+              more <span class="glyphicon glyphicon-chevron-down"></span>
+            </button>
+        </a>
+    </div>
+
+    <!--NEW PROJECT-->
+    <div class="project">
+        <a href="files/caped.pdf">
+            <div class="title">
+                <div>
+                    <h3>
+                        <i class="fa fa-fw fa-github"></i>
+                    </h3>
+                </div>
+
+                <div>
+                    <h3 class="colorlink">
+                      CAPED: Context-aware personalized display brightness for mobile devices (2014)
+                    </h3>
+                </div>
+            </div>
+        </a>
+
+        <p class="first">
+            The display remains the primary user interface on many computing devices, ranging from traditional devices such as desktops and laptops, to the more pervasive devices such as smartphones and smartwatches. Thus, the overall user experience with these computing devices is greatly determined by the display subsystem. Ideal display brightness is critical to good user experience, but actually predicting the ideal brightness level which would most satisfy the user is a challenge. Finding the right screen brightness is even more challenging on mobile devices (which is the focus of this work), as the screen tends to be one of the most power consuming components. 
+        </p>
+
+        <p class="hidden">
+            Currently, the control of display brightness is usually done through a simplistic, static one-size-fits-all model which chooses a fixed brightness level for a given ambient light condition. Our user study and survey of research literature on vision and perception establish that the simplistic model currently used for display brightness control is not sufficient. The ideal display brightness level varies from one user to another. Furthermore, in addition to ambient light, we identify additional contextual data that also affect the ideal brightness.
+        </p>
+
+        <p class="hidden">
+            We propose a new system, Context-Aware PErsonalized Display (CAPED), that uses online learning to control the display brightness, and is theoretically and practically shown to improve prediction accuracy over time. CAPED enables personalization of brightness control as well as exploitation of richer contextual data to better predict the right display brightness. Our user study shows that CAPED improves the state-of-the-art brightness control techniques with a 41.9% improvement in mean absolute prediction accuracy. Our user study also shows that on average the users had 0.8 point higher satisfaction on a 5-point scale. In other words, CAPED improves the average satisfaction by 23.5% compared to the default scheme.
+        </p>
+
+        <a class="toggler" href="javascript:;">
+            <button type="button" class="btn btn-default btn-dark btn-sm">
+              more <span class="glyphicon glyphicon-chevron-down"></span>
+            </button>
+        </a>
+    </div>
+
+    <!--NEW PROJECT-->
+    <div class="project">
+        <a href="files/dyndir_mag.pdf">
+            <div class="title">
+                <div>
+                    <h3>
+                        <i class="fa fa-fw fa-file-text"></i>
+                    </h3>
+                </div>
+
+                <div>
+                    <h3 class="colorlink">
+                        The Impact of Dynamic Directories on Multicore Interconnects (2013)
+                    </h3>
+                </div>
+            </div>
+        </a>
+
+        <p class="first">
+            This is an expanded study on the Dynamic Directories work.
+            The central idea is the same as the original work, but contains some enhanced analysis and insight.
+            This article was published in an IEEE Computer special issue.
+        </p>
+    </div>
+
+    <!--NEW PROJECT-->
+    <div class="project">
+        <a href="files/DasMemCho12.pdf">
+            <div class="title">
+                <div>
+                    <h3>
+                        <i class="fa fa-fw fa-file-text"></i>
+                    </h3>
+                </div>
+
+                <div>
+                    <h3 class="colorlink">
+                        Dynamic Directories (2012)
+                    </h3>
+                </div>
+            </div>
+        </a>
+
+        <p class="first">
+            This is an earlier academic paper for my research at Northwestern.
+            This paper presents Dynamic Directories, which is a many-core (NUCA) optimization.
+            NUCA is an architecture where each core doesn't share cache data via a bus; rather, each core shares the data using packets and directory lookups over an on-chip network.
+            This paper presents a way of saving network power by reducing the number of network hops required to perform a directory lookup.
+            More details are available in the paper.
+        </p>
+    </div>
+</div>
